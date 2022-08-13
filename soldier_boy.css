@@ -1,0 +1,108 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: scroll;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  background: rgb(41, 36, 41);
+  padding: 50px;
+  color: aliceblue;
+  font-weight: 900;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  display: flex;
+  gap: 16px;
+  text-decoration: none;
+  list-style-type: none;
+}
+.logo{
+  display: flex;
+  font-size: 30px;
+}
+.box1{
+  padding: 100px;
+  display: flex;
+  background:  rgb(41, 36, 41);
+  justify-content: space-between;
+}
+.title{
+  font-size: 50px;
+  color: aliceblue;
+}
+.info{
+  color: aliceblue;
+  font-size: 30px;
+}
+button{
+  display: flex;
+  background: rgb(81, 142, 196);
+  border-radius: 10px;
+  padding: 20px;
+  color: aliceblue;
+}
+.two{
+  display: flex;
+  align-items: center;
+  background: gray;
+  padding: 40px;
+}
+.one{
+  padding: 40px;
+}
+.title2{
+  display: flex;
+  justify-content: center;
+}
+.box2{
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.boxes{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  justify-content: space-between;
+  margin-bottom: 0;
+
+}
+.box{
+  display: flex;
+  background: white;
+  padding: 100px;
+  border: solid blue;
+  border-radius: 10px;
+}
+.texts{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+
+}
+.text{
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+}
+.quote{
+  display: flex;
+  padding: 50px;
+  background: #E5E7EB;
+  color: #1f2937;
+  font-size: 36px;
+}
+.author{
+  display: flex;
+  background: #E5E7EB;
+  color: #1f2937;
+  font-size: 20px;
+  justify-content: right;
+}
